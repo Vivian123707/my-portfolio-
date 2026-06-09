@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chelimo Electrical Design</title>
+
+<style>
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:Arial, sans-serif;
+}
+
+body{
+ background:#f8f9fa;
+ color:#333;
+}
+
+header{
+ background:#fff;
+ padding:20px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ box-shadow:0 2px 5px rgba(0,0,0,0.1);
+ position:sticky;
+ top:0;
+}
+
+.logo{
+ font-size:22px;
+ font-weight:bold;
+ color:#2c3e50;
+}
+
+nav a{
+ margin-left:20px;
+ text-decoration:none;
+ color:#333;
+ font-weight:600;
+}
+
+nav a:hover{
+ color:#28a745;
+}
+
+.hero{
+ display:flex;
+ padding:60px 30px;
+ background:#38912c;
+ align-items:center;
+ justify-content:space-between;
+}
+
+.hero img{
+ max-width:700px;
+ border-radius:10px;
+}
+
+section{
+ padding:60px 30px;
+}
+
+h2{
+ text-align:center;
+ margin-bottom:30px;
+ color:#2c3e50;
+}
+
+.about{
+ max-width:800px;
+ margin:auto;
+ text-align:center;
+}
+
+.services,.skills{
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:center;
+ gap:20px;
+}
+
+.box{
+ background:#ffffff;
+ padding:25px;
+ border-radius:10px;
+ box-shadow:0 2px 8px rgba(0,0,0,0.1);
+ width:280px;
+}
+
+.gallery{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+ gap:15px;
+}
+
+.gallery img{
+ width:100%;
+ border-radius:10px;
+}
+
+#contact{
+ text-align:center;
+ background:#2c2e50;
+ color:white;
+}
+
+#contact a{
+ color:#28a745;
+ text-decoration:none;
+ font-weight:bold;
+}
+
+footer{
+ background:#2c3e50;
+ color:white;
+ text-align:center;
+ padding:15px;
+}
+
+@media(max-width:800px){
+ .hero{
+   flex-direction:column;
+   text-align:center;
+ }
+ .hero img{
+   margin-top:20px;
+ }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo"> Dorcas Chelimo</div>
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#skills">Skills</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<div>
+<h1>Electrical Technician & Draughtsman</h1>
+<p>Electrical Design,Installation & Maintenance</p>
+</div>
+
+<img src="image7.jpg.jpeg" alt="design" style="width:600; height:600; object-fit: cover;">
+</div>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="about">
+Hi! I’m Chelimo, an Electrical and Electronics Engineering graduate with a passion for electrical design and drafting. I specialize in creating residential, commercial, and industrial electrical layouts using AutoCAD and AutoCAD Electrical. With hands-on knowledge in electrical installation, I ensure my designs are practical, safe, and implementable.
+</div>
+</section>
+
+<section id="services">
+<h2>Services</h2>
+<div class="services">
+<div class="box">Electrical Drafting & Design</div>
+<div class="box">AutoCAD Electrical Projects</div>
+<div class="box">PLC & Ladder Diagrams</div>
+<div class="box">Electrical Installation Planning</div>
+<div class="box">Design Optimization & Revisions</div>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div class="box">Electrical Drafting (Residential / Commercial / Industrial)</div>
+<div class="box">Schematics & Wiring Diagrams</div>
+<div class="box">PLC I/O & Ladder Logic</div>
+<div class="box">AutoCAD Electrical & AutoCAD</div>
+<div class="box">Project Planning</div>
+<div class="box">Client Ready Designs</div>
+</div>
+</section>
+
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="image8.jpg.jpeg" width="100" height="250px" object-fit="cover" border-radius="5px">
+<img src="image2.jpg.jpeg" width="100" height="250px" object-fit="cover" border-radius="5px">
+<img src="image3.jpg.jpeg" width="100" height="250px" object-fit="cover" border-radius="5px">
+<img src="image4.jpg.jpeg" width="100" height="250px" object-fit="cover" border-radius="5px">
+<img src="image5.jpg.jpeg" width="100" height="250px" object-fit="cover" border-radius="5px">
+<img src="image6.jpg.jpeg" width="100" height="250px" object-fit="cover" border-radius="5px">
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: dojemutai@gmail.com</p>
+<p>Phone: 0713575048</p>
+</section>
+
+<footer>
+© 2026 Chelimo Electrical Design
+</footer>
+
+</body>
+</html>
